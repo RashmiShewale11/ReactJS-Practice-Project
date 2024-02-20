@@ -31,3 +31,16 @@ document.getElementById("root").append(h1)
 /*
 Challenge - create navbar using JSX (Javascript XML)
 */
+
+const navbar = (
+    <nav>
+        <h1>Website </h1>
+        <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        </ol>
+    </nav>
+)
+
+ReactDOM.render(navbar, document.getElementById("root"))
